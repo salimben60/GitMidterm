@@ -1,0 +1,70 @@
+  639  clear
+  640  git branch 
+  641  git -d branch branch2 
+  642  git branch -d branch2 
+  643  git branch 
+  644  clear
+  645  git checkout -b branchpart2
+  646  touch fileA fileB
+  647  git checkout master 
+  648  ls
+  649  cat fileA fileB
+  650  rm fileA fileB
+  651  ls
+  652  git checkout branchpart2 
+  653  clear
+  654  touch fA fB
+  655  git checkout master 
+  656  ls
+  657  clear
+  658  reflog
+  659  git reflog
+  660  clear
+  661  git branch 
+  662  git checkout branchpart2 
+  663  ls
+  664  echo "Will this show up on master" >> fA
+  665  cat fA
+  666  git checkout master 
+  667  cat fA
+  668  git checkout branchpart2 
+  669  git add .
+  670  git commit -am
+  671  git commit -am"made branch and commited"
+  672  git checkout master 
+  673  cat fastforward
+  674  ls
+  675  echo "you can see the files before you commit, once you commit then you cannot see the changes"
+  676  git checkout branchpart2 
+  677  clear
+  678  git status
+  679  touch f4
+  680  clear
+  681  git stauts
+  682  git status
+  683  clear
+  684  git stash save stashexcerise
+  685  git list
+  686  git stash save --stashexcerise
+  687  clear
+  688  git stash save "stashexcerise"
+  689  touch file55
+  690  git stash save "stashexcerise"
+  691  git add .
+  692  git stash save "stashexcerise"
+  693  git list
+  694  git status
+  695  git stash list
+  696  git stash apply stash@{0}
+  697  git checkout master 
+  698  git merge 
+  699  git merge branchpart2 
+  700  git add .
+  701  git log
+  702  git reflog
+  703  git status
+  704  history | tail -n 100 
+  705  history | tail -n 60
+  706  history | tail -n 70
+  707  clear
+  708  history | tail -n 70 >> logfileExcercise2
