@@ -1,0 +1,200 @@
+  424  cd ..
+  425  cd ..
+  426  cd ItuDemo/
+  427  cat Gemfile
+  428  rails server
+  429  vi Gemfile
+  430  vi Gemfile
+  431  ls
+  432  cd app/views/home/
+  433  ls
+  434  vi index.html.erb 
+  435  cd ..
+  436  cd ..
+  437  ls
+  438  cd ..
+  439  cd config
+  440  ls
+  441  vi routes.rb 
+  442  vi routes.rb 
+  443  vi routes.rb 
+  444  vi routes.rb 
+  445  cls
+  446  ls
+  447  vi database.yml 
+  448  cd ..
+  449  dir
+  450  cd db/migrate/
+  451  ls
+  452  vi 20160327190311_create_users.rb 
+  453  exit
+  454  exit
+  455  ls
+  456  git
+  457  cls
+  458  ls
+  459  cls
+  460  clear
+  461  ls
+  462  cd lectal-admin/
+  463  ls
+  464  cat README.md 
+  465  cls
+  466  clear
+  467  ls 
+  468  cd /
+  469  ls 
+  470  cd C:/
+  471  ;s
+  472  ls
+  473  cd Users/salim/Desktop/GitWk2/
+  474  git clone http://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git 
+  475  ls
+  476  ls
+  477  rm eclipse.platform.ui/
+  478  rm -f eclipse.platform.ui/
+  479  cls
+  480  clear
+  481  rm *
+  482  rm -r eclipse.platform.ui/
+  483  ls
+  484  cd C:
+  485  cd Users/salim/Desktop/
+  486  ls -l 
+  487  ls -ld
+  488  find type -d
+  489  ls *
+  490  cls
+  491  clear4
+  492  clear
+  493  ls *
+  494  ls */
+  495  clear
+  496  ls -d
+  497  ls
+  498  ls
+  499  cd Question2/
+  500  ls
+  501  touch file1 file2 file3
+  502  echo "Adding content to file1" >> file1 
+  503  rm file2
+  504* 
+  505  git remote add origin https://github.com/salimben60/Question2.git
+  506  git remote add b1 https://github.com/salimben60/Question2.git
+  507  ls
+  508  git push
+  509  git status
+  510  git branch
+  511  git pull origin master
+  512  git fetch
+  513  git merge
+  514  git status
+  515  git add .
+  516  ls
+  517  git status
+  518  cat *
+  519  clear
+  520  echo "Adding content to file3" >> file3 
+  521  touch file4
+  522  git status
+  523  echo "This is part 5 demostrating stash"
+  524  git stash
+  525  git add .
+  526  git stash
+  527  git stash pop 
+  528  clear
+  529  git stash save
+  530  git stash list
+  531  git stash apply @0
+  532  git stash apply @1
+  533  git stash apply stash@1
+  534  git stash apply stash@{1}
+  535  git stash pop
+  536  git stash drop stash@{1}
+  537  git stash clear
+  538  git status
+  539  git add .
+  540  git commit -am"Commiting after showing the stash portion"
+  541  clsear
+  542  clear
+  543  git push
+  544  git checkout 
+  545  git branch 
+  546  clear
+  547  git checkout branchingExcercise
+  548  clear
+  549  git branch branchingExcercise
+  550  git checkout branchingExcercise 
+  551  git fileb1 fileb2 fileb3
+  552  echo fileb1 fileb2 fileb3
+  553  touch fileb1 fileb2 fileb3
+  554  git status
+  555  git add .
+  556  git commit -am"added branch"
+  557  git push 
+  558  git rebase master 
+  559  git checkout master 
+  560  git status
+  561  git push
+  562  clear
+  563  git commit -am"used stashing and rebasing"
+  564  git push
+  565  git branch
+  566  ls
+  567  git branch branchingExcercise 
+  568  ls
+  569  cat *
+  570  clear
+  571  git branch branchingExcercise 
+  572  git checkout branchingExcercise 
+  573  ls
+  574  git rebase master 
+  575  git checkout master 
+  576  ls
+  577  git checkout branchingExcercise 
+  578  git add .
+  579  git checkout master 
+  580  ls
+  581  git branch 
+  582  git checkout branchingExcercise 
+  583  git rebase master 
+  584  ls
+  585  git checkout master 
+  586  ls
+  587  git rebase branchingExcercise 
+  588  ls
+  589  git status
+  590  git add .
+  591  git commit -am "did the rebase concept"
+  592  git push
+  593  clea
+  594  clear
+  595  git branch
+  596  git branch -d branchingExcercise 
+  597  git branch 
+  598  git checkout branch2
+  599  git branch branch2
+  600  git checkout branch2 
+  601  touch fastforward1 fastforward2 fastforward3
+  602  git add .
+  603  git commit -m"using fastforward merge"
+  604  git checkout master 
+  605  git merge
+  606  git checkout branch2 
+  607  git status
+  608  git checkout master 
+  609  git merge branch2 
+  610  ls
+  611  git status
+  612  git add .
+  613  git commit -am"Completed excercise 2"
+  614  git push
+  615  git push
+  616  git history
+  617  history
+  618  history tail -100
+  619  history tail -n 100
+  620  history | tail -n 100
+  621  history | tail -n 200
+  622* 
+  623  history | tail -n 200 >> Question2commands
