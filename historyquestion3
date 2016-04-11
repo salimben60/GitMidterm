@@ -1,0 +1,50 @@
+  723  git commit –m “A” 
+  724  clear
+  725  git commit -m"A"
+  726  git add . 
+  727  git commit -m"A"
+  728  echo "commit" > excersise4 
+  729  git add .
+  730  git commit -m"B"
+  731  clear
+  732  git branch stable
+  733  git checkout -b experiment
+  734  ls
+  735  cat excersise4 
+  736  echo "commit 5" >> excersise4 
+  737  git add .
+  738  git commit -m"C"
+  739  git checkout master 
+  740  git commit -m"D"
+  741  git add .
+  742  git commit -m"D"
+  743  clear
+  744  git commit -m"D"
+  745  git branch goodidea
+  746  git checkout experiment 
+  747  git branch whereami
+  748  git commit -m"E"
+  749  ls
+  750  cat excersise4 
+  751  echo "commit 11" >> excersise4 
+  752  git commit -m"E"
+  753  git add .
+  754  git commit -m"E"
+  755  clear
+  756  git checkout goodidea 
+  757  git checkout master 
+  758  echo "commit 19" >> excersise4 
+  759  git add .
+  760  git commit -m "F"
+  761  git checkout whereami 
+  762  echo "commit 22" >> excersise4 
+  763  git add .
+  764  git commit -m "G"
+  765  git checkout master
+  766  clear
+  767  git reflog
+  768  git reflog >> question3reflog
+  769  clear
+  770  history | tail -n 100
+  771  history | tail -n 50
+  772  history | tail -n 50 >> historyquestion3

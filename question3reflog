@@ -1,0 +1,46 @@
+d96e01e HEAD@{0}: checkout: moving from whereami to master
+45f30dd HEAD@{1}: commit: G
+928b84c HEAD@{2}: checkout: moving from master to whereami
+d96e01e HEAD@{3}: commit: F
+a0297c2 HEAD@{4}: checkout: moving from goodidea to master
+a0297c2 HEAD@{5}: checkout: moving from experiment to goodidea
+04c07a7 HEAD@{6}: commit: E
+928b84c HEAD@{7}: checkout: moving from master to experiment
+a0297c2 HEAD@{8}: checkout: moving from experiment to master
+928b84c HEAD@{9}: commit: C
+a0297c2 HEAD@{10}: checkout: moving from master to experiment
+a0297c2 HEAD@{11}: commit: B
+457a70e HEAD@{12}: commit: A
+6ace9aa HEAD@{13}: commit: excersie2 completed merging and branching
+4b5ed3f HEAD@{14}: merge branchpart2: Fast-forward
+401a842 HEAD@{15}: checkout: moving from branchpart2 to master
+4b5ed3f HEAD@{16}: checkout: moving from master to branchpart2
+401a842 HEAD@{17}: checkout: moving from branchpart2 to master
+4b5ed3f HEAD@{18}: commit: made branch and commited
+401a842 HEAD@{19}: checkout: moving from master to branchpart2
+401a842 HEAD@{20}: checkout: moving from branchpart2 to master
+401a842 HEAD@{21}: checkout: moving from master to branchpart2
+401a842 HEAD@{22}: checkout: moving from branchpart2 to master
+401a842 HEAD@{23}: checkout: moving from master to branchpart2
+401a842 HEAD@{24}: checkout: moving from branchpart2 to master
+401a842 HEAD@{25}: checkout: moving from master to branchpart2
+401a842 HEAD@{26}: commit: added history of commands
+7a7b662 HEAD@{27}: merge branch2: Fast-forward
+65adfcf HEAD@{28}: checkout: moving from branch2 to master
+7a7b662 HEAD@{29}: checkout: moving from master to branch2
+65adfcf HEAD@{30}: checkout: moving from branch2 to master
+7a7b662 HEAD@{31}: commit: using fastforward merge
+65adfcf HEAD@{32}: checkout: moving from master to branch2
+65adfcf HEAD@{33}: rebase finished: returning to refs/heads/master
+65adfcf HEAD@{34}: rebase: checkout branchingExcercise
+9272a0c HEAD@{35}: checkout: moving from branchingExcercise to master
+65adfcf HEAD@{36}: checkout: moving from master to branchingExcercise
+9272a0c HEAD@{37}: checkout: moving from branchingExcercise to master
+65adfcf HEAD@{38}: checkout: moving from master to branchingExcercise
+9272a0c HEAD@{39}: checkout: moving from branchingExcercise to master
+65adfcf HEAD@{40}: checkout: moving from master to branchingExcercise
+9272a0c HEAD@{41}: checkout: moving from branchingExcercise to master
+65adfcf HEAD@{42}: commit: added branch
+9272a0c HEAD@{43}: checkout: moving from master to branchingExcercise
+9272a0c HEAD@{44}: commit: Commiting after showing the stash portion
+d7d62cb HEAD@{45}: commit (initial): :lollipop: Added .gitattributes & .gitignore files
