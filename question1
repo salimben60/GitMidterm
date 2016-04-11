@@ -1,0 +1,11 @@
+A centralized VCS is when there is a central copy of your project and everyone commits their changes to that copy. A distributed VCS is when the programmers clone a copy of the repo and they have the whole thing on their HD and they do not reply on the central copy. 
+	
+	Centralized systems: Subversion/CVS
+	distributed systems: GIT / Mercurial
+	
+The advantage of GIT is that you are not dependent on the network connection. Once you clone the repo, then you can work on it without requiring internet so you can work offline. The second advantage is that it is fast to work with and the files are smaller than in subversion. You can also work with branches (Stash and cherry pick) and that  helps a lot when working with teams and working on multiple features. 
+
+The different stages are:
+	Git directory, 
+	Working area, 
+  Staging area.
