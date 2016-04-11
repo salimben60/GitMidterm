@@ -1,0 +1,8 @@
+
+5.	To fix the problem immediately, Lucas will have to add an .gitignore file and add the files he wants to ignore. To avoid this in the future, I would recommend that he should always read the docs of the tool that he is using. In this case, he should read the origin documentation for GIT and of Node to understand how npm works. Also, he should never run a command that he doesn’t know what the output is,  sites such as StackOverflow help you to make the code run but not always in the most efficient and secure method.
+	
+
+B) Ana can go on Github ->Repo name -> click on Commits.  If she had good messages for each commit then she can easily find the missing file, otherwise it will take a longer time. Also, since the GUI is easier to navigate, she can check the dates easily and just do a trial and error around the given time. 
+
+
+iii) she should run this command  “git reset –hard HEAD"
